@@ -1,0 +1,58 @@
+.post-image{
+    max-width: 768px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.post-image a img{
+    display: block;
+    margin: auto;
+
+    height: auto;
+    height: 100%;
+
+    width: auto;
+    width: 100%;
+}
+
+.post-message{
+    background-color: #202020;
+    max-width: 768px;
+    border-bottom: 3px solid;
+    border-color: #FB964B;
+    padding-right: 0px;
+}
+
+.post-message img {
+    margin-top: -30px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+
+.post-message #message{
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0 0 3px;
+    margin-left: 10px;
+}
+
+.post-message #createdTime{
+    color: #FB964B;
+    font-size: 16px;
+    margin-left: 10px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+#fb-logo{
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: -19px;
+    margin-left: 15px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}

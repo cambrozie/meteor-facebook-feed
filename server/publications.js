@@ -1,0 +1,1 @@
+//Meteor publish goes here

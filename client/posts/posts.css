@@ -1,0 +1,50 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E9EAED;
+}
+
+.cards-content {
+    max-width: 768px;
+}
+
+@media (max-width: 978px) {
+    .container-fluid {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        padding: 0;
+    }
+
+    .row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+
+.posts-header .page-name {
+    padding-left: 0px;
+    background-color: #ffffff;
+    padding-left: 10px;
+}
+
+.posts-header .page-name i {
+    float: left;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.posts-header .page-name p {
+    font-size: 38px;
+    font-weight: 700;
+    color: #3a3a3a;
+    padding-top: 5px;
+    margin: 0 0 0px;
+    margin-left: 65px;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}

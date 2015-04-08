@@ -1,0 +1,57 @@
+.facebook-row {
+    margin-top: 20px;
+}
+
+.facebook-div {
+    background-color: #1983c1;
+    color: #ffffff;
+    height: 70px;
+    width: 450px;
+    border-radius: 5px;
+}
+
+.facebook-letter {
+    color: #ffffff;
+    margin-top: 10px;
+    font-weight: 500;
+    margin-left: 5px;
+    float: left;
+}
+
+#facebook-login {
+    font-weight: 500;
+    font-size: 36px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#facebook-logout {
+    font-weight: 500;
+    font-size: 36px;
+    float: left;
+    margin-left: 105px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 450px) {
+    #facebook-login {
+        font-size: 22px;
+        margin-top: 14px;
+    }
+
+    #facebook-logout {
+        font-size: 22px;
+        margin-top: 14px;
+        margin-left: 85px;
+    }
+
+    .facebook-div {
+        width: 300px;
+        height: 55px;
+    }
+
+    .facebook-letter {
+        font-size: 40px;
+    }
+}

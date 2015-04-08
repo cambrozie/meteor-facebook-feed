@@ -1,0 +1,19 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-platform
+iron:router
+accounts-facebook
+service-configuration
+meteorhacks:npm
+
+
+npm-container
+reactive-var
+meteorhacks:async
+mrt:bootstrap-3
+fortawesome:fontawesome
+momentjs:moment
