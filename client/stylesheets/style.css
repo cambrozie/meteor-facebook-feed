@@ -1,0 +1,123 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E9EAED;
+    color: #ffffff;
+}
+
+.share-buttons {
+    text-align:center;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+    background-color: #2b3e50;
+}
+
+.row {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.project-name {
+    text-align: center;
+    font-size: 48px;
+}
+
+.project-name a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.fbPage-col {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.fbPage-col .fbPage-name {
+    text-align: right;
+}
+
+.search-col {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.search-result-col {
+   margin-bottom: 10px;
+}
+
+.smallText {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+
+/*-------------------   POSTS -------------------------*/
+
+.posts-row {
+    background-color: #E9EAED;
+}
+
+.posts-container {
+    padding-left: 3%;
+    padding-right: 0px;
+    margin-top: 20px;
+}
+
+.postItem {
+    width: 300px;
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+
+.postItem:hover {
+    border: 1px solid rgba(10, 10, 10, 0.3);
+    box-shadow: 0 0 10px 0 rgba(10, 10, 10, 0.3);
+}
+
+.postItem img {
+    width: 100%;
+}
+
+.postItem p {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.postItem i {
+    padding-left: 20px;
+    padding-top: 16px;
+    font-size: 20px;
+    color: #3a3a3a;
+}
+
+.postItem span {
+    float: right;
+    padding-right: 20px;
+    padding-top: 15px;
+    color: #777777;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#loadMorePostsButton {
+    position: absolute;
+    margin-bottom: -20px;
+    bottom: 0;
+    left: 50%;
+}

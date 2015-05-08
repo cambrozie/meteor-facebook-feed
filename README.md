@@ -1,13 +1,39 @@
-# meteor-facebook-app
-A small working meteor app showcasing login with Facebook, search and page posts retrieval and display. Please take into account that this works only with Facebook pages (not places or normal accounts), you can customize the fbgraph queries to what you need.
+![image_meteor@2x.png](https://d14jjfgstdxsoz.cloudfront.net/meteor-development-group.png)
 
-# Running the application
-First you need to go to the server/lib/social-config.js file and put your Facebook app ID and secret. After this simply run it as any meteor app and access it at http://localhost:3000 in your browser.
+# meteor-facebook-feed
+Meteor application for retrieving and displaying a Facebook page feed using Masonry cascading grid layout.
 
-# To be improved - soon :)
- - Add more comments in code
- - Better use of Meteor's templates
- - Rewrite CSS code following best practices guidelines
- - Any feedback is more than welcome so please let me know if you find anything and I'll do my best to provide the fixes
+Currently we support:
+- Displaying Facebook page feed
+- Infinite scroll to load more posts
+- Searching in the Facebook page using keywords
+- Changing the Facebook page
+- Refreshing posts
+
+Notes:
+- No database required since we don't store any posts information on the server
+- Most of the logic is on the client side and the server only makes the requests to the Graph API.
+
+You can see the demo at http://meteor-facebook-feed.icenodes.com
+
+# Why
+
+We are building a lot of internal projects and external projects like Startup MVPs and we needed a social feed aggregator and a cool way of displaying the posts.
+
+# Requirements
+
+- Meteor >= 0.9.0
+
+# Quick start
+
+- Download / Clone the repository `git clone https://github.com/cambrozie/meteor-facebook-feed`
+- Navigate into your project directory 'cd meteor-facebook-feed'
+- Put your Facebook 'appId' and 'secret' in `private/facebook-config.js` file
+- Start the Meteor application with `meteor`
+- Open `http://localhost:3000` in your browser
+
+# License
+
+Copyright &copy; 2014-2015 [ICENodes](http://icenodes.com). Licensed under the terms of the [MIT license](LICENSE.md).
 
 Provided by ICENodes - www.icenodes.com

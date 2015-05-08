@@ -1,1 +1,0 @@
-//Meteor permissions go here

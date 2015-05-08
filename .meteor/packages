@@ -17,3 +17,5 @@ meteorhacks:async
 mrt:bootstrap-3
 fortawesome:fontawesome
 momentjs:moment
+underscore
+robodo:masonrify
