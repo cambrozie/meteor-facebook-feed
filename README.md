@@ -1,6 +1,9 @@
 ![image_meteor@2x.png](https://d14jjfgstdxsoz.cloudfront.net/meteor-development-group.png)
 
 # meteor-facebook-feed
+
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/bmustata/icenodes?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+
 Meteor application for retrieving and displaying a Facebook page feed using Masonry cascading grid layout.
 
 Currently we support:
@@ -15,6 +18,12 @@ Notes:
 - Most of the logic is on the client side and the server only makes the requests to the Graph API.
 
 You can see the demo at http://meteor-facebook-feed.icenodes.com
+
+# More demos
+
+- http://meteor-facebook-feed.icenodes.com/social/EpicFoodPorn
+- http://meteor-facebook-feed.icenodes.com/social/ArchDaily
+- http://meteor-facebook-feed.icenodes.com/social/Expiredbeans
 
 # Why
 
