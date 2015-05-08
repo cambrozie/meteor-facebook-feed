@@ -6,6 +6,8 @@
 
 Meteor application for retrieving and displaying a Facebook page feed using Masonry cascading grid layout.
 
+![Meteor Facebook feed](https://github.com/cambrozie/meteor-facebook-feed/blob/master/public/images/meteor-facebook-feed.jpg?raw=true)
+
 Currently we support:
 - Displaying Facebook page feed
 - Infinite scroll to load more posts
