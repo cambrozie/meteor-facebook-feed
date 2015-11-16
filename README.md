@@ -1,5 +1,3 @@
-![image_meteor@2x.png](https://d14jjfgstdxsoz.cloudfront.net/meteor-development-group.png)
-
 # meteor-facebook-feed
 
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/bmustata/icenodes?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
