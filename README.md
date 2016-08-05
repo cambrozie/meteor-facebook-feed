@@ -43,6 +43,6 @@ We are building a lot of internal projects and external projects like Startup MV
 
 # License
 
-Copyright &copy; 2014-2015 [ICENodes](http://icenodes.com). Licensed under the terms of the [MIT license](LICENSE.md).
+Copyright &copy; [ICENODES](https://icenodes.com). Licensed under the terms of the [MIT license](LICENSE.md).
 
-Provided by ICENodes - www.icenodes.com
+Provided by ICENODES - www.icenodes.com
