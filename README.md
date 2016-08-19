@@ -1,10 +1,7 @@
+![image_meteor@2x.png](https://d14jjfgstdxsoz.cloudfront.net/meteor-development-group.png)
+
 # meteor-facebook-feed
-
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/bmustata/icenodes?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
-
 Meteor application for retrieving and displaying a Facebook page feed using Masonry cascading grid layout.
-
-![Meteor Facebook feed](https://github.com/cambrozie/meteor-facebook-feed/blob/master/public/images/meteor-facebook-feed.jpg?raw=true)
 
 Currently we support:
 - Displaying Facebook page feed
@@ -19,19 +16,13 @@ Notes:
 
 You can see the demo at http://meteor-facebook-feed.icenodes.com
 
-# More demos
-
-- http://meteor-facebook-feed.icenodes.com/social/EpicFoodPorn
-- http://meteor-facebook-feed.icenodes.com/social/ArchDaily
-- http://meteor-facebook-feed.icenodes.com/social/Expiredbeans
-
 # Why
 
 We are building a lot of internal projects and external projects like Startup MVPs and we needed a social feed aggregator and a cool way of displaying the posts.
 
 # Requirements
 
-- Meteor >= 0.9.0
+- Meteor >= 1.3.0
 
 # Quick start
 
@@ -43,6 +34,6 @@ We are building a lot of internal projects and external projects like Startup MV
 
 # License
 
-Copyright &copy; [ICENODES](https://icenodes.com). Licensed under the terms of the [MIT license](LICENSE.md).
+Copyright &copy; [ICENodes](http://icenodes.com). Licensed under the terms of the [MIT license](LICENSE.md).
 
-Provided by ICENODES - www.icenodes.com
+Provided by ICENodes - www.icenodes.com

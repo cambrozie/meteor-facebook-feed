@@ -1,7 +1,9 @@
+import fbgraph from "fbgraph";
+
 var fbHelper;
 
 function Facebook() {
-    this.fb = Meteor.npmRequire('fbgraph');
+    this.fb = fbgraph;
 
     //accessToken
     var facebookConfig = JSON.parse(Assets.getText('facebook-config.json'));
@@ -14,7 +16,7 @@ function Facebook() {
         timeout: 3000,
         pool: {maxSockets: Infinity},
         headers: {connection: "keep-alive"}
-    }
+    };
     this.fb.setOptions(this.options);
 }
 
@@ -27,7 +29,7 @@ Facebook.prototype.query = function (query, method) {
         });
     });
     return data.result;
-}
+};
 
 Facebook.prototype.getPagePosts = function (pageName, limit, until) {
     var query = pageName + '/posts?limit=' + limit + '&fields=id,message,object_id,type,link,created_time';
@@ -35,7 +37,7 @@ Facebook.prototype.getPagePosts = function (pageName, limit, until) {
         query += '&until=' + until;
     }
     return this.query(query);
-}
+};
 
 Meteor.methods({
     getPagePosts: function (pageName, limit, until) {
@@ -45,18 +47,17 @@ Meteor.methods({
 
     getProcessedPagePosts: function (pageName, limit, until) {
         var postsData = Meteor.call("getPagePosts", pageName, limit, until);
-        if (postsData && postsData.data)
-        {
+        if (postsData && postsData.data) {
             var cards = [];
             _.each(postsData.data, function (post) {
-                    var card = {};
-                    card.id = post.id;
-                    card.message = post.message;
-                    card.link = post.link;
-                    card.createdTime = moment(post.created_time).format('DD MMMM');
-                    if (post.type == "photo") {
-                        card.imageSource = post.object_id;
-                    }
+                var card = {};
+                card.id = post.id;
+                card.message = post.message;
+                card.link = post.link;
+                card.createdTime = moment(post.created_time).format('DD MMMM');
+                if (post.type == "photo") {
+                    card.imageSource = post.object_id;
+                }
                 cards.push(card);
             });
             postsData.data = cards;

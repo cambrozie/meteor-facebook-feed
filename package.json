@@ -1,0 +1,10 @@
+{
+  "name": "meteor-social-feed-demo",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "fbgraph": "^1.3.0"
+  }
+}

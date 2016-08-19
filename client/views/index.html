@@ -27,6 +27,23 @@
           content="Meteor app for retrieving and displaying a Facebook page feed. Built by ICENodes"/>
     <meta property="og:site_name" content="ICENodes"/>
 
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-309852-20', 'auto');
+        ga('send', 'pageview');
+    </script>
+
     <!-- Favicon -->
     <link rel="shortcut icon" href="/images/favicon.png">
 </head>
@@ -47,7 +64,7 @@
         <div class="row">
             <div class="col-md-4 col-md-offset-4 share-buttons">
                 <a class="btn btn-primary btn-sm twitter-share"
-                   href="https://twitter.com/home?status=Check%20out%20this%20facebook%20feed%20for%20your%20%40meteorjs%20app!%20By%20%40icenodes%20%23meteorjs%20%23startup%20https://github.com/cambrozie/meteor-facebook-feed">Share
+                   href="https://twitter.com/home?status=Check%20out%20this%20Facebook%20feed%20for%20your%20%40meteorjs%20app!%20By%20%40icenodes%20%23meteorjs%20%23startup%20https://github.com/cambrozie/meteor-facebook-feed">Share
                     on Twitter</a>
                 <a class="btn btn-primary btn-sm fb-share"
                    href="https://www.facebook.com/sharer/sharer.php?u=http://meteor-facebook-feed.icenodes.com/">Share on
@@ -59,10 +76,10 @@
         </div>
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
-                Meteor showcase app for retrieving and displaying a Facebook page feed using Masonry cascading grid
-                layout. Features include changing the page, filtering the posts based on keywords and refreshing the
-                posts. You can enter multiple search keywords - separated by space - and the results will display the
-                posts containing at least one keyword from the given ones.
+                Meteor showcase app for retrieving and displaying a Facebook page feed using Masonry
+                cascading grid layout. Features include changing the page, filtering the posts based on keywords and
+                refreshing the posts. You can enter multiple search keywords - separated by space - and the results will
+                display the posts containing at least one keyword from the given ones.
             </div>
         </div>
         <div class="row">
