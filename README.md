@@ -1,4 +1,4 @@
-![image_meteor@2x.png](https://d14jjfgstdxsoz.cloudfront.net/meteor-development-group.png)
+![image_meteor@2x.png](https://d14xs1qewsqjcd.cloudfront.net/assets/logo-black.svg)
 
 # meteor-facebook-feed
 Meteor application for retrieving and displaying a Facebook page feed using Masonry cascading grid layout.
